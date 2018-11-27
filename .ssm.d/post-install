@@ -6,4 +6,5 @@ packageName=${packageHome##*/}
 profilePath=${profileDirPath}/${packageName}.sh
 mkdir -p ${profileDirPath}
 #echo "#${packageName%%_*}_HOME=${packageHome}" >> ${profilePath}
+mkdir -p ${packageHome}/bin
 cp ${packageHome}/maint/install_fst2tsf.sh ${packageHome}/bin

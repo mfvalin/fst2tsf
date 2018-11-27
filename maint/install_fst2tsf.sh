@@ -4,5 +4,5 @@ Where=${Where%/bin/*}
 echo ===== installing into $Where =====
 cd $Where/src
 make clean
-make install RMNLIB=$RMNLIB
+make install RMNLIB=${RMNLIB:-rmn}
 make clean
