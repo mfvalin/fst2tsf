@@ -1,0 +1,5 @@
+      character*48 qdfvar
+      character*16 qdfnat,qdfstmp,qdfvc,qdfgtp,qdfform,qdfdate,qdfun
+
+      common /ctsf/ qdfvar,qdfnat,qdfstmp,qdfvc,qdfgtp,
+     $     qdfform,qdfdate,qdfun

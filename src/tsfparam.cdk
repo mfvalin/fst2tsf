@@ -1,0 +1,7 @@
+     $     variable,nature,stamp,units,date,time,time2,
+     $     timestep,stepno,level,level2,vertcoord,ni,nj,nk,
+     $     mapproj,xpole,ypole,meshps,maprot,meshlat,meshlon,
+     $     swlat,swlon,base,form,digits,min,max,
+     $     datyp,nbits,ipdesc1,ipdesc2,ipdesc3,
+     $     mapdesc1,mapdesc2,mapdesc3,mapdesc4
+      

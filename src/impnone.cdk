@@ -1,0 +1,16 @@
+#if defined (SGI)
+      IMPLICIT NONE
+#endif
+#if defined (CRAY)
+      IMPLICIT NONE
+#endif
+#if defined (HPPA)
+      IMPLICIT NONE
+#endif
+#if defined (SUN)
+      IMPLICIT UNDEFINED(A-Z)
+#endif
+#if defined (NEC)
+      IMPLICIT NONE
+#endif
+

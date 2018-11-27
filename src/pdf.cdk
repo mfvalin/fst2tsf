@@ -1,0 +1,15 @@
+      integer qdfni,qdfnj,qdfnk,qdfts,qdfstno,qdft,qdft2,qdfdgt
+      integer qdfdtp,qdfnbts,qdfip1,qdfip2,qdfip3
+      integer qdfmap1,qdfmap2,qdfmap3,qdfmap4,qdfbase
+      real qdflvl,qdflvl2,qdfxp,qdfyp,qdfmshp,qdfrot,qdf
+     $     msla,qdfmslo,qdfswla,qdfswlo,qdfmin,qdfmax
+      
+      logical plverb
+
+      common /pdf/ qdfni,qdfnj,qdfnk,qdfts,qdfstno,qdft,qdft2,qdfdgt,
+     $     qdfdtp,qdfnbts,qdfip1,qdfip2,qdfip3,
+     $     qdfmap1,qdfmap2,qdfmap3,qdfmap4,qdfbase,
+     $     qdflvl,qdflvl2,qdfxp,qdfyp,qdfmshp,qdfrot,
+     $     qdfmsla,qdfmslo,qdfswla,qdfswlo,qdfmin,qdfmax,plverb
+      
+
